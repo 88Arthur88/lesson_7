@@ -1,0 +1,89 @@
+body {
+  font-family: "Lato";
+  color: #424551;
+}
+
+[class*="__container"] {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.title-block {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  margin-bottom: 92px;
+}
+
+.image-glass {
+  border-radius: 4px;
+  max-width: 100%;
+}
+.image {
+  margin-bottom: 60px;
+}
+
+.first-paragraph-block {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 24px;
+}
+
+.block-with-text {
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 48px;
+}
+
+.paragraph {
+  margin-bottom: 29px;
+}
+
+.quote {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 48px;
+}
+
+.quote__container {
+  padding-left: 58px;
+}
+
+.title-list {
+  line-height: 160%;
+  margin-bottom: 24px;
+}
+
+.name-list {
+  margin-bottom: 24px;
+}
+.list {
+  padding-left: 35px;
+}
+
+.last-paragraph-block {
+  line-height: 160%;
+  margin-bottom: 60px;
+}
+
+/* === Training of Styles === */
+
+body {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 252, 2, 0.9251050762101716) 0%,
+      rgba(229, 242, 0, 0.7234244039412641) 22%,
+      rgba(0, 87, 255, 0.8214636196275386) 100%
+    ),
+    url("../img/600px-Символ_Ідея_Нації.jpg") repeat-y 0 0 / 10%,
+    url("../img/600px-Символ_Ідея_Нації.jpg") repeat-y top right / 10%,
+    url("../img/depositphotos_56899625-stock-illustration-coat-of-arms-of-ukraine.jpg")
+      repeat-x bottom left / 10% fixed,
+    url("../img/depositphotos_56899625-stock-illustration-coat-of-arms-of-ukraine.jpg")
+      repeat-x 0 0 / 10% fixed;
+}
